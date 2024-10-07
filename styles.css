@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('imags/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header {
+    margin: 25px;
+    border-radius: 20px;
+    border: 1px gray;
+    background: #30848a;
+    background: linear-gradient(to top, #88ccd3 30%, #06e5fa 100%);
+    box-shadow: 0px 1px 50px 10px #000000bf;
+    padding: 8px;
+}
+
+.nav__logo-img {
+    border-radius: 100px;
+    display: inline-block;
+    height: 100px;
+
+}
+.nav_container {
+    display: flex;
+}
+
+.intro{
+    font-size: 25px;
+    color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h1 {
+    font-family: "Ubuntu Sans", sans-serif;
+    font-weight: 700;
+    font-size:30px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav__list {
+    display: flex;
+    justify-content: center;
+    list-style:outside;
+    margin-left: auto;
+}
+.top {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+ 
+.button-6 {
+    display: flex;
+    justify-content: center;
+    float: right;
+
+}
+  
+.button-6 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.nav__item {
+    margin-left: 2rem;
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.button-6 a:hover {
+    color: rgb(0, 44, 116);
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slide-image {
+    display: flex;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+}
+
+.mySlides {
+    display: none;
+}
+
+.category {
+    background: rgba(255, 255, 255, 0.8);
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__content ul {
+    list-style: none;
+}
+
+.footer__social-link {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: color 0.3s;
+}
+
+.footer__social-link:hover {
+    color: rgb(27, 133, 0);
+}
+
+@keyframes fade {
+    from {opacity: .3} 
+    to {opacity: 1}
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+.button-6 {
+    background-color: rgb(10, 10, 9);
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1;
+    margin: 10px;
+    min-height: 1rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: 200px;
+  }
+  
+
+  .button-6:hover {
+    transform: translateY(-8px);
+  }
+  
+ 

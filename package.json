@@ -1,0 +1,13 @@
+{
+    "name": "myRealEstateApp",
+    "version": "1.0.0",
+    "description": "A simple real estate app using Electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "dependencies": {
+      "electron": "^24.0.0"
+    }
+  }
+  
